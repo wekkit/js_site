@@ -1,0 +1,155 @@
+/* CSS Document */
+
+/* Expandable Home Boxes */
+
+.expandable-box .inner { overflow: hidden; }
+
+.expandable-box h2 { line-height: 1.1; margin-bottom: 6px; }
+
+.expandable-box a { text-decoration: none; color: #5B5B5B; }
+
+.expandable-box a:hover { color: #000; }
+
+.expandable-box .tab { clear: both; margin: 10px 0 0 0; height: 16px; }
+
+.expandable-box .tab a { display: block; width: 106px; height: 12px; text-align: center; }
+
+.expandable-box .tab a span { background-image: url("../images/box2-toggle.gif"); }
+
+
+/* What's New */
+
+.new { background: url("../images/box3.gif") repeat-y; line-height: 1.4; width: 710px;} 
+
+.new .inner { background: url("../images/box3-inner.jpg") no-repeat; padding: 15px 20px 0 21px; height: 380px; width:680px;  overflow:hidden}
+
+.new .tab { background: url("../images/box3-tab.gif") no-repeat; margin-top: 3px; }
+
+.new .tab a { margin-left: 249px; }
+
+.new h2 a { font-size:.9em; font-weight:bold; color: #003399; padding-right: 18px; background: url("../images/arrow2.gif") 100% 70% no-repeat;  }
+
+.new form p { margin: 0 0 3px 0; }
+
+.new form input { margin: 0; vertical-align: top; }
+
+.new input.text { background: url("../images/index-input.gif") no-repeat; color: #6F6F6F; border: none; width: 317px; padding: 2px 6px; margin-right: 1px; }
+
+.new li { border-top: 1px solid #C9D0CD; padding: 3px 2px; line-height: 1.2; }
+
+.new li.first { border-top: none; }
+
+.new img.floatLeft { clear: left; float: left; margin: 0 12px 8px 0; }
+
+
+
+#az-index-results { min-height: 186px;}
+
+
+/* Home columns */
+
+.home-cols { clear: both; margin: 5px 0 10px 1px; }
+
+.home-cols .right { float: right; width: 220px; margin: 10px 2px 0 2px;}
+
+
+
+/*Home Dropdown */
+
+#home-dropdown { margin: 0 ; width: 450px; height:50px; padding:0; float: right; background: url("../images/dropdown-bg.jpg") 5px 0 no-repeat; }
+
+/* Home accordion  */
+
+#home-accordion { width: 220px; clear:right; float: right;  margin: 0 5px 0 6px; overflow: hidden; }
+
+#home-accordion .inner { padding: 0 ; height: 150px; overflow: hidden; }
+
+
+#home-accordion .accordion1 h2,
+#home-accordion .accordion2 h2,
+#home-accordion .accordion3 h2,
+#home-accordion .accordion4 h2,
+#home-accordion .accordion5 h2
+ { height: 34px; }
+
+#home-accordion .accordion1 h2 span { background-image: url("../images/accordion1.gif"); cursor: pointer; }
+#home-accordion .accordion2 h2 span { background-image: url("../images/accordion2.gif"); cursor: pointer; }
+#home-accordion .accordion3 h2 span { background-image: url("../images/accordion3.gif"); cursor: pointer; }
+#home-accordion .accordion4 h2 span { background-image: url("../images/accordion4.gif"); cursor: pointer; }
+#home-accordion .accordion5 h2 span { background-image: url("../images/accordion5.gif"); cursor: pointer; }
+
+#home-accordion .accordion1 .inner,
+#home-accordion .accordion2 .inner,
+#home-accordion .accordion3 .inner,
+#home-accordion .accordion4 .inner,
+#home-accordion .accordion5 .inner
+ { padding: 8px 0 0 0px; background: url("../images/news-1.gif") no-repeat; height:130px; }
+ 
+ #home-accordion .accordion1 .inner ul ,
+#home-accordion .accordion2 .inner ul ,
+#home-accordion .accordion3 .inner ul ,
+#home-accordion .accordion4 .inner ul ,
+#home-accordion .accordion5 .inner ul
+ { padding-left: 0; margin: 12px 0 8px 10px; width: 190px; height: 96px; overflow: auto; }
+ 
+ #home-accordion .accordion1 .inner li ,
+#home-accordion .accordion2 .inner li ,
+#home-accordion .accordion3 .inner li ,
+#home-accordion .accordion4 .inner li ,
+#home-accordion .accordion5 .inner li
+ { padding-left: 8px; background: url("../images/plus2.gif") 0 5px no-repeat; line-height: 1.27; margin-bottom: 3px; }
+
+#home-accordion .accordion1 .innercontent h1,
+#home-accordion .accordion2 .innercontent h1,
+#home-accordion .accordion3 .innercontent h1,
+#home-accordion .accordion4 .innercontent h1,
+#home-accordion .accordion5 .innercontent h1
+ { color:#19449b; height: 20px;}
+
+#home-accordion .accordion1 .innercontent h3 ,
+#home-accordion .accordion2 .innercontent h3 ,
+#home-accordion .accordion3 .innercontent h3 ,
+#home-accordion .accordion4 .innercontent h3 ,
+#home-accordion .accordion5 .innercontent h3 { color:#000; height: 20px;}
+
+#home-accordion .accordion1 .innercontent,
+#home-accordion .accordion2 .innercontent,
+#home-accordion .accordion3 .innercontent,
+#home-accordion .accordion4 .innercontent,
+#home-accordion .accordion5 .innercontent
+ {padding: 8px; line-height: 14px;}
+
+#home-accordion .accordion1 .innercontent,
+#home-accordion .accordion2 .innercontent,
+#home-accordion .accordion3 .innercontent,
+#home-accordion .accordion4 .innercontent,
+#home-accordion .accordion5 .innercontent
+{ width: 200px; height: 90px;  overflow: auto; }
+
+#home-accordion .accordion1 .inner .view-all ,
+#home-accordion .accordion2 .inner .view-all ,
+#home-accordion .accordion3 .inner .view-all ,
+#home-accordion .accordion4 .inner .view-all ,
+#home-accordion .accordion5 .inner .view-all 
+{ height: 18px; padding: 5px 0 0 9px; background: #C5D4D0; margin: 0; font-size: 0.82em; text-transform: uppercase; }
+
+#home-accordion .accordion1 .inner .view-all a,
+#home-accordion .accordion2 .inner .view-all a,
+#home-accordion .accordion3 .inner .view-all a,
+#home-accordion .accordion4 .inner .view-all a,
+#home-accordion .accordion5 .inner .view-all a
+ { text-decoration: none; color: #243995; padding-left: 8px; background: url("../images/plus2.gif") left center no-repeat; }
+
+#home-accordion .accordion1 .inner .read-full,
+#home-accordion .accordion2 .inner .read-full,
+#home-accordion .accordion3 .inner .read-full,
+#home-accordion .accordion4 .inner .read-full,
+#home-accordion .accordion5 .inner .read-full
+ { height: 18px; padding: 5px 0 0 9px; background: #C5D4D0 url("../images/read-full-story.gif") no-repeat; font-size: 0.82em;text-transform: uppercase; width: 220px; margin: 0 -2px; }
+
+#home-accordion .accordion1 .inner .read-full a,
+#home-accordion .accordion2 .inner .read-full a,
+#home-accordion .accordion3 .inner .read-full a,
+#home-accordion .accordion4 .inner .read-full a,
+#home-accordion .accordion5 .inner .read-full a
+{{ text-decoration: none; color: #243995; padding-left: 8px; background: url("../images/plus2.gif") left center no-repeat; }

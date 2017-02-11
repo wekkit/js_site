@@ -1,0 +1,122 @@
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font-size:12px;
+font-weight:bold;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+clear: both; height: 25px; margin: 0; width: 944px; padding-left: 5px;
+}
+
+.shadetabs li{
+float: left; 
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+padding: 3px 7px;
+margin-right: 2px;
+border: 1px solid #ffffff;
+color: #ffffff;
+background: #ffffff; /* url('../images/shade.gif') top left repeat-x;*/
+display: block; height:25px; 
+ margin: 0; 
+ overflow: hidden; position: relative; 
+ text-align: center; text-decoration: none;
+  text-transform: uppercase;
+  width: 141px;
+}
+
+.shadetabs li a span
+{
+background-repeat: no-repeat; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 1; cursor: pointer;
+}
+
+.shadetabs li a:visited{
+color: #ffffff;
+}
+
+.shadetabs li a:hover{
+text-decoration: none;
+color: #ffffff;
+height:25px;;
+}
+
+.shadetabs li.selected{
+position: relative;
+/*top: 1px;*/
+}
+
+.shadetabs li.selected a{ /*selected main tab style */
+/*background-image: url(shadeactive1.gif);*/
+/*border-bottom-color: white;*/
+}
+
+.shadetabs li.selected a:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.contentstyle{
+margin-bottom: 1em; padding: 1px;
+}
+
+/********specif styles for homepage tabs ********/
+
+.shadetabs li a.axtab1prosp, .shadetabs li a.axtab1prosp:visited
+{
+background:#ffffff url('/images/prospective1.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab1prosp:hover
+{
+background:#ffffff url('/images/prospective1.jpg') 0  -35px no-repeat ; 
+}
+
+.shadetabs li a.axtab2, .shadetabs li a.axtab1:visited
+{
+background:#ffffff url('/images/under.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab2:hover
+{
+background:#ffffff url('/images/under.jpg') 0  -35px no-repeat ; 
+}
+
+.shadetabs li a.axtab3, .shadetabs li a.axtab3:visited
+{
+background:#ffffff url('/images/grad.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab3:hover
+{
+background:#ffffff url('/images/grad.jpg') 0  -35px no-repeat ; 
+}
+
+.shadetabs li a.axtab4, .shadetabs li a.axtab4:visited
+{
+background:#ffffff url('/images/research.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab4:hover
+{
+background:#ffffff url('/images/research.jpg') 0  -35px no-repeat ; 
+}
+
+.shadetabs li a.axtab5, .shadetabs li a.axtab5:visited
+{
+background:#ffffff url('/images/alumni.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab5:hover
+{
+background:#ffffff url('/images/alumni.jpg') 0  -35px no-repeat ; 
+}
+
+.shadetabs li a.axtab6, .shadetabs li a.axtab6:visited
+{
+background:#ffffff url('/images/interRel.jpg') 0px 0px no-repeat ;  
+}
+.shadetabs li a.axtab6:hover
+{
+background:#ffffff url('/images/interRel.jpg') 0  -35px no-repeat ; 
+}
+
