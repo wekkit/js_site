@@ -1,17 +1,13 @@
 
 /***************
 	NUS - BANNER
-***************/	
+***************/
 .nus-banner{padding:0;margin:0;background:#003d7c;}
 .nus-banner img{width:100%;}
 .nus-banner .btn-primary{background:#ef7c00;border-color:#ff6600;}
 
 .nus-banner .carousel .item{height:350px;}
-.nus-banner .carousel .item1{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/home/about-the-centre-for-language-studies.jpg");) no-repeat; background-size: cover;}
-.nus-banner .carousel .item2{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/home/classroom-activities-and-e-learning.jpg"); background-size: cover;}
-.nus-banner .carousel .item3{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/home/immersion.jpg"); background-size: cover;}
-.nus-banner .carousel .item4{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/home/publications.jpg"); background-size: cover;}
-.nus-banner .carousel .item5{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/home/research.jpg"); background-size: cover;}
+.nus-banner .carousel .item1{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)), url("../images/a_stock_images/apic2.jpg");) no-repeat; background-size: cover;}
 
 @media screen and (max-width:767px) {
 	.nus-banner{margin-bottom:30px;}
@@ -27,7 +23,7 @@
 
 /***********************************
 	FEATURED - ARTICLES - HOMEPAGE
-************************************/	
+************************************/
 .nus-featured-articles{margin:40px 0;}
 .nus-featured-articles img{width:100%;}
 .nus-featured-articles .row > div{margin:0 0 20px 0;}
@@ -54,7 +50,7 @@
 **********************************/
 .nus-jumbotron{background:transparent;text-align:center;
 	border-radius:0;
-	-webkit-border-radius:0px; 
+	-webkit-border-radius:0px;
 	-moz-border-radius:0px;}
 
 @media (max-width: 375px) {
