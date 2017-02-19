@@ -1,10 +1,10 @@
 /***********************
-  
+
 	Author 	: 	iFoundries
 	Date 		: 	19/11/2014
 	Project	:		NUS
 	File		:		styleguide.css
-	
+
 	***********************/
 
 	@font-face{
@@ -13,7 +13,7 @@
 		src: local('☺'),
 		url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/fontawesome.otf')  format('opentype'),
-		url('../fonts/fontawesome.woff') format('woff'), 
+		url('../fonts/fontawesome.woff') format('woff'),
 		url('../fonts/fontawesome.ttf')  format('truetype'),
 		url('../fonts/fontawesome.svg#fontawesome') format('svg');
 		font-weight: normal;
@@ -30,8 +30,8 @@
 		transition: all 0.2s;
 	}
 	a:focus{outline:none;text-decoration:none;}
-	.nav .open > a, 
-	.nav .open > a:hover, 
+	.nav .open > a,
+	.nav .open > a:hover,
 	.nav .open > a:focus{background:transparent !important;border-color:transparent;}
 
 	.faicon{font-family:"FontAwesome";color:#333;}
@@ -47,7 +47,7 @@
 
 	.btn-primary{background:#ef7c00;border-color:#ff6600;
 		border-radius:0;
-		-webkit-border-radius:0px; 
+		-webkit-border-radius:0px;
 		-moz-border-radius:0px;
 	}
 	.btn-primary:hover,
@@ -73,7 +73,7 @@
 
 /***************
 	LOGO
-	****************/	
+	****************/
 	.nus-logo{float:left;}
 	.nus-logo .navbar-brand{height:60px;padding:0;
 		-moz-transition-property: none;
@@ -96,28 +96,28 @@
 
 /******************************************
 	FACULTY BORDER BETWEEN LOGO AND SUB-LOGO
-	******************************************/	
+	******************************************/
 	.nus-faculty-border{float:left;margin:0 15px;border-left:1.5pt solid #003D7C;width:2px;height:60px;}
 	@media screen and (max-width:991px) {
 		.nus-faculty-border{display:none;}
-	}	
+	}
 
 
 /*********************
 	FACULTY LOGO
-	*********************/	
+	*********************/
 	.nus-faculty-logo{float: left;}
 
 
 
 /**************
 	HEADER
-	***************/	
+	***************/
 	.nus-header{padding:20px 0;background:#fff;}
 	.nus-header.microsite{background:#f8f8f8;border-bottom: 1px solid #e7e7e7;}
 	@media screen and (max-width:991px) {
 		.nus-header{padding:10px 0;background:#f8f8f8;border-bottom:1px solid #e7e7e7;}
-	}	
+	}
 
 	.nus-quicklinks{height:60px;position:relative;}
 	.nus-quicklinks ul.box{position:absolute;right:0;bottom:-10px;}
@@ -143,7 +143,7 @@
 	*****************/
 	nav.nus-main-nav{margin:0;border-left:0;border-right:0;
 		border-radius:0;
-		-webkit-border-radius:0px; 
+		-webkit-border-radius:0px;
 		-moz-border-radius:0px;
 	}
 	nav.nus-main-nav .search-btn-box{float:right;margin:14px 0;}
@@ -164,7 +164,7 @@
 
 /********************
 	DROPDOWN MENU STYLE
-	*********************/	
+	*********************/
 	.dropdown-menu{padding:0;padding:15px;display:none;border-radius:0;}
 	.dropdown-menu > li > a{display:block;padding:10px;color:#003d7c;border-bottom:1px solid #f5f5f5;}
 	.dropdown-menu > li:first-child > a{border-top:1px solid #f5f5f5;}
@@ -174,9 +174,9 @@
 	.dropdown-submenu .dropdown-menu{left: 100%;margin-left:0px;top: 0;border-radius:0;}
 
 
-/******************** 
+/********************
 	MEGA MENU STYLE
-	*********************/ 
+	*********************/
 	.mega-menu {padding:20px 0!important;width:500px;border-radius:0;margin-top:0px;}
 	.mega-menu li.mega-menu-column {width:248px;}
 	.mega-menu > li {display: inline-block;float:left;}
@@ -191,7 +191,7 @@
 
 /***************************************
 	EFFECT - SIDEBAR MENU - WRAPPER
-	****************************************/	
+	****************************************/
 	.off-canvas-toggle{z-index:100}
 	.noscroll{position:fixed;overflow-y:scroll;width:100%}
 	.off-canvas-toggle:focus{outline:none}
@@ -229,7 +229,7 @@ NUS - SIDEBAR MENU - MOBILE - OFFCANVAS
 #nus-sidebar-off-canvas .body .nus-module .title{margin:0 0 10px 0;font-size:18px;}
 #nus-sidebar-off-canvas .body .nus-module ul > li > a{color:#003d7c;
 	border-radius:0;
-	-webkit-border-radius:0px; 
+	-webkit-border-radius:0px;
 	-moz-border-radius:0px;
 }
 
@@ -253,13 +253,13 @@ NUS - SIDEBAR MENU - MOBILE - OFFCANVAS
 
 /**********************************
 NUS - SIDEBAR - COMPONENT LEVEL
-***********************************/	
+***********************************/
 .nus-sidebar-nav{margin-bottom:20px;}
 .nus-sidebar-nav li + li {margin-top:0;}
 .nus-sidebar-nav li.active a{background: none repeat scroll 0 0 #003d7c;color: #fff;}
 .nus-sidebar-nav li a{color:#003d7c;border-bottom:1px solid #eee;
 	border-radius:0;
-	-webkit-border-radius:0px; 
+	-webkit-border-radius:0px;
 	-moz-border-radius:0px;
 }
 .nus-sidebar-nav li a:hover{color:#000;}
@@ -268,13 +268,13 @@ NUS - SIDEBAR - COMPONENT LEVEL
 
 /*******************
 NUS - SEARCH BOX
-******************/	
+******************/
 .nus-search-box{position:relative;background:#f8f8f8;}
 .nus-search-box.collapse.in{border-bottom:1px solid #e7e7e7;}
 .nus-search-box .container{position:relative;padding-top:20px;padding-bottom:20px;}
 .nus-search-box input[type="text"]{padding-left:40px;width: 100%;height:45px;
 	border-radius:0;
-	-webkit-border-radius:0px; 
+	-webkit-border-radius:0px;
 	-moz-border-radius:0px;
 }
 .nus-search-box .icon{position:absolute;top:33px;left:30px;color:#ccc;}
@@ -288,7 +288,7 @@ NUS - SEARCH BOX
 /********************
 NUS - BREADCRUMBS
 ********************/
-.nus-breadcrumbs{background:#002449;border-top: 1px solid #003d7c;padding:13px 0;} 
+.nus-breadcrumbs{background:#002449;border-top: 1px solid #003d7c;padding:13px 0;}
 .nus-breadcrumbs ul{list-style:none;margin:0;padding:0;}
 .nus-breadcrumbs ul > li{display:inline-block;color:#999;margin-right:5px;}
 .nus-breadcrumbs ul > li .icon{padding-right:10px;color:#ef7c00;}
@@ -303,7 +303,7 @@ NUS - BREADCRUMBS
 
 /*****************************
 NUS - DEPARTMENT - MASTHEAD
-******************************/	
+******************************/
 .nus-department-header.mobile{display:none;}
 .nus-department-header .blue{background:#003d7c; color:#fff;border-bottom: 1px solid #0056af;}
 .nus-department-header .grey{background:#999999;border-bottom:1px solid #b3b3b3;color:#fff;}
@@ -313,13 +313,13 @@ NUS - DEPARTMENT - MASTHEAD
 @media screen and (max-width:991px) {
 	.nus-department-header.mobile{display:block;}
 	.nus-department-header .container{padding-top:10px;padding-bottom:10px;}
-	.nus-department-header h2{text-align:center;font-size:25px;}	
+	.nus-department-header h2{text-align:center;font-size:25px;}
 }
 
 
 /****************
 FOOTER - MAIN
-****************/	
+****************/
 .nus-footer{background:#003062;border-top:1px solid #003d7c;color:#999;font-weight:300;}
 .nus-footer a{color:#999;}
 .nus-footer a:hover,
@@ -332,7 +332,7 @@ FOOTER - MAIN
 
 @media screen and (max-width:991px) {
 	.nus-footer .wrapper{padding:40px 0;}
-}	
+}
 
 .nus-footer .navigator ul li{list-style:none;line-height:24px;}
 .nus-footer .navigator .title{margin-top:0;color:#fff;font-size:18px;}
@@ -366,7 +366,7 @@ FOOTER - COPYRIGHT
 
 /***************************
 FOOTER - COPYRIGHT (MENU)
-***************************/	
+***************************/
 .nus-footer .nav-copyright > li{display:inline-block;}
 .nus-footer .nav-copyright > li.bullet:before{content:'\2022';padding-right:15px;padding-left:15px;}
 @media screen and (max-width:991px) {
@@ -428,7 +428,7 @@ Misc
 }
 #accordion h3.ui-state-active { font-size: 180%; font-weight: normal; }
 #accordion h3.ui-state-active .ui-icon { top: 23px; left: 0.3em; }
-.ui-accordion .ui-accordion-header .ui-icon { top: 18px; } 
+.ui-accordion .ui-accordion-header .ui-icon { top: 18px; }
 .ui-state-default { color: #454546; }
 .ui-state-active { color: #fa7611; }
 .ui-widget-content { color: #515151; }
@@ -505,4 +505,8 @@ td > ul {
 
 h4 {
 	margin-top: 30px;
+}
+
+.table-module tbody tr td {
+	border: none;
 }
