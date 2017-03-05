@@ -537,3 +537,18 @@ table img {
 #contact-header {
 	color:white;
 }
+
+.home-links a:hover {
+	text-decoration: none;
+}
+.btn-links {
+	width: 150px;
+	height: 80px;
+	background-color: #333;
+	color: white;
+	margin: 10px;
+}
+.btn-links:hover {
+	background-color: #ccc;
+	color: white;
+}
