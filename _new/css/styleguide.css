@@ -514,3 +514,16 @@ h4 {
 table img {
 	max-height: 200px;
 }
+
+
+#contact-bg {
+	background: url('/images/contact/bg.jpg');
+	background-size: cover;
+	background-position: center 100%;
+	padding: 20px;
+	margin: 10px;
+}
+
+#contact-header {
+	color:white;
+}
