@@ -510,3 +510,7 @@ h4 {
 .table-module tbody tr td {
 	border: none;
 }
+
+table img {
+	max-height: 200px;
+}
