@@ -515,6 +515,16 @@ table img {
 	max-height: 200px;
 }
 
+.side-nav {
+	margin: 0 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+}
+.side-nav li {
+	list-style: none;
+	margin: 10px;
+}
 
 #contact-bg {
 	background: url('/images/contact/bg.jpg');
