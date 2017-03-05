@@ -1,0 +1,24 @@
+{
+  "name": "js_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp server ./_new --port $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wekkit/js_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wekkit/js_site/issues"
+  },
+  "homepage": "https://github.com/wekkit/js_site#readme",
+  "dependencies": {
+    "harp": "^0.23.0"
+  }
+}
