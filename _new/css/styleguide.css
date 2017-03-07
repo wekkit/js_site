@@ -517,6 +517,7 @@ table img {
 
 .side-nav {
 	margin: 0 20px;
+	margin-bottom: 20px;
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 12px;
@@ -551,4 +552,8 @@ table img {
 .btn-links:hover {
 	background-color: #ccc;
 	color: white;
+}
+
+.people-list img {
+	width: 100%;
 }
