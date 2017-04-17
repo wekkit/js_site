@@ -528,10 +528,10 @@ table img {
 }
 
 #contact-bg {
-	background: url('/images/contact/bg.jpg');
+	background: url('../images/contact/bg.jpg');
 	background-size: cover;
-	background-position: center 100%;
-	padding: 20px;
+	background-position: center 90%;
+	padding: 50px;
 	margin: 10px;
 }
 

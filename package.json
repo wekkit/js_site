@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "harp server ./_new --port $PORT"
+    "start": "harp server ./_new --port $PORT",
+    "dev": "harp server ./_new"
   },
   "repository": {
     "type": "git",

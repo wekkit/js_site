@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><!-- InstanceBegin template="/Templates/js template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -50,13 +50,13 @@
               </li>
               <li class="item-114">Undergraduate
                 <ul class="nav level2">
-                  <li><a href="admission.html">Admission</a></li>
-                  <li><a href="graduate_requirements.html">Graduate Requirements</a></li>
-                  <li><a href="module_information.html">Module Information</a></li>
-                  <li><a href="mentorship_scheme.html">Mentorship Scheme</a></li>
-                  <li><a href="scholarship_and_awards.html">Scholarship and Awards</a></li>
-                  <li><a href="student_activities.html">Student Activities</a></li>
-                  <li><a href="career_opportunities.html">Career Opportunities</a></li>
+                  <li><a href="../undergraduate/admission.html">Admission</a></li>
+                  <li><a href="../undergraduate/graduate_requirements.html">Graduate Requirements</a></li>
+                  <li><a href="../undergraduate/module_information.html">Module Information</a></li>
+                  <li><a href="../undergraduate/mentorship_scheme.html">Mentorship Scheme</a></li>
+                  <li><a href="../undergraduate/scholarship_and_awards.html">Scholarship and Awards</a></li>
+                  <li><a href="../undergraduate/student_activities.html">Student Activities</a></li>
+                  <li><a href="../undergraduate/career_opportunities.html">Career Opportunities</a></li>
                 </ul>
               </li>
               <li class="item-115">Graduate
@@ -181,13 +181,13 @@
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#"  data-target="#">Undergraduate<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="admission.html">Admission</a></li>
-                  <li><a href="graduate_requirements.html">Graduate Requirements</a></li>
-                  <li><a href="module_information.html">Module Information</a></li>
-                  <li><a href="mentorship_scheme.html">Mentorship Scheme</a></li>
-                  <li><a href="scholarship_and_awards.html">Scholarship and Awards</a></li>
-                  <li><a href="student_activities.html">Student Activities</a></li>
-                  <li><a href="career_opportunities.html">Career Opportunities</a></li>
+                  <li><a href="../undergraduate/admission.html">Admission</a></li>
+                  <li><a href="../undergraduate/graduate_requirements.html">Graduate Requirements</a></li>
+                  <li><a href="../undergraduate/module_information.html">Module Information</a></li>
+                  <li><a href="../undergraduate/mentorship_scheme.html">Mentorship Scheme</a></li>
+                  <li><a href="../undergraduate/scholarship_and_awards.html">Scholarship and Awards</a></li>
+                  <li><a href="../undergraduate/student_activities.html">Student Activities</a></li>
+                  <li><a href="../undergraduate/career_opportunities.html">Career Opportunities</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -259,261 +259,11 @@
       </div>
       <!-- NUS SEARCH - ENDS -->
 
-      <!-- InstanceBeginEditable name="Content Region" -->
-      <div class="container">
-  <h1>Undergraduate</h1>
-  <hr>
-  <div class="col-md-3">
-    <ul class="side-nav">
-  <li><a href="../undergraduate/admission.html">Admission</a></li>
-  <li><a href="../undergraduate/graduate_requirements.html">Graduate Requirements</a></li>
-  <li><a href="../undergraduate/module_information.html">Module Information</a></li>
-  <li><a href="../undergraduate/mentorship_scheme.html">Mentorship Scheme</a></li>
-  <li><a href="../undergraduate/scholarship_and_awards.html">Scholarship and Awards</a></li>
-  <li><a href="../undergraduate/student_activities.html">Student Activities</a></li>
-  <li><a href="../undergraduate/career_opportunities.html">Career Opportunities</a></li>
-</ul>
-  </div>
-  <div class="col-md-9">
-    <h2>Graduation Requirements</h2>
-    <p>Check the graduation requirements for your cohort:</p>
-    <div class="well">
-      <ul>
-        <li><a href="#2016andafter">Cohort 2016 and after</a></li>
-        <li><a href="#2012to2015">Cohort 2012 to 2015</a></li>
-        <li><a href="#2010to2011">Cohort 2010 to 2011</a></li>
-        <br>
-        <li><a href="#secondmajor2016andafter">Second Major (for Cohort 2016 and after)</a></li>
-        <li><a href="#secondmajor2010to2015">Second Major (for Cohort 2010 to 2015)</a></li>
-        <br>
-        <li><a href="#minor2006andafter">Minor (for Cohort 2006 and after)</a></li>
-      </ul>
-    </div>
-    <hr>
-    <div id="2016andafter">
-      <h1>Cohort 2016 and after</h1>
-      <p class="lead">Single Major [B.A. (Hons.)]</p>
-      <p>To major in Japanese Studies, students need to:</p>
-      <ul>
-        <li>  Passed JS1101E. This will be counted towards the Faculty Core or UE requirements.</li>
-        <li>Pass at least 84 MCs of JS modules or JS-recognised mdoules or LAJ modules which include the following:
-          <ul>
-            <li>JS2101</li>
-            <li>JS3101</li>
-            <li>JS4101</li>
-            <li>no more than 24 MCs of the following LAJ modules:
-              <ul>
-                <li>LAJ1201</li>
-                <li>LAJ2201</li>
-                <li>LAJ2202</li>
-                <li>LAJ2203</li>
-                <li>LAJ3201 or LAJ3203</li>
-                <li>LAJ3202 or LAJ3204</li>
-              </ul>
-            </li>
-            <li>a minimum of 60 MCs at level-3000 (including JS3101 and LAJ level-3000) or higher, with:
-              <ul>
-                <li>a minimum of 40 MCs at level-4000 or higher (including JS4101)</li>
-                <li>a maximum of 2 level-5000 JS modules (subject to department's approval)</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>To declare an Honours track, students must have completed 110 MCs, including 44 MCs in the Major, with a CAP of 3.2 and above.</li>
-        <li>The Honours Thesis (15 MCs) is optional. To qualify for the Honours Thesis, students must complete 110 MCs including 44 MCs of JS major requirements with a minimum CAP of 3.5. In order to obtain Honours (Highest Distinction), students must achieve a CAP of 4.5 or higher AND read and pass the Honours Thesis.</li>
-        <li>Students who do not attempt the Honours Thesis will read level-4000 modules to fulfil the Honours Requirements.</li>
-        <li>Students who may also read a level-4000 Independent Studies Module (5 MCs).  The level-4000 ISM carries a pre-requisite of 100 MCs completed, including 44 MCs in the Major, with a minimum CAP of 3.2.  It precludes the Honours Thesis.</li>
-        <li>All level-4000 modules carry a general pre-requisite of having completed 80 MCs, including 28 MCs in the Major, with a minimum CAP of 3.2 OR being on the Honours Track (some level-4000 modules may have different pre-requisites).</li>
-      </ul>
-      <br>
-      <p class="lead">Single Major (B.A.)</p>
-      <p>To major in Japanese Studies, students need to:</p>
-      <ul>
-        <li>Passed JS1101E. This will be counted towards the Faculty Core or UE requirements.</li>
-        <li>Pass at least 44 MCs of JS modules or JS-recognised mdoules or LAJ modules which include the following:
-          <ul>
-            <li>JS2101</li>
-            <li>JS3101</li>
-            <li>no more than 16 MCs of the following LAJ modules:
-              <ul>
-                <li>LAJ1201</li>
-                <li>LAJ2201</li>
-                <li>LAJ2202</li>
-                <li>LAJ2203</li>
-              </ul>
-            </li>
-            <li>a minimum of 20 MCs at level-3000 or higher(including JS3101)</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <hr>
-    <div id="2012to2015">
-      <h1>Cohort 2012 to 2015</h1>
-      <p class="lead">Single Major [B.A. (Hons.)]</p>
-      <p>Pass at least 100 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>JS2101</li>
-        <li>JS3101</li>
-        <li>JS4101</li>
-        <li>LAJ1201</li>
-        <li>LAJ2201</li>
-        <li>LAJ2202</li>
-        <li>LAJ2203</li>
-        <li>LAJ3201 or LAJ3203 or both</li>
-        <li>LAJ3202 or LAJ3204 or both</li>
-        <li>a minimum of 60 MCs at level-3000 or higher, with
-          <ul>
-            <li>a minimum of 40 MCs at level-4000 or higher (including JS4101)</li>
-            <li>a maximum of 2 level-5000 JS modules (subject to department's approval)</li>
-          </ul>
-        </li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>To declare an Honours track, students must have completed 110 MCs, including 60 MCs in the Major, with a CAP of 3.2 and above.</li>
-        <li>The Honours Thesis (15 MCs) is optional. To qualify for the Honours Thesis, students must complete 110 MCs including 60 MCs of JS major requirements with a minimum CAP of 3.5. In order to obtain Honours (Highest Distinction), students must achieve a CAP of 4.5 or higher AND read and pass the Honours Thesis.</li>
-        <li>Students who do not attempt the Honours Thesis will read level-4000 modules to fulfil the Honours Requirements.</li>
-        <li>Students who may also read a level-4000 Independent Studies Module (5 MCs).  The level-4000 ISM carries a pre-requisite of 100 MCs completed, including 60 MCs in the Major, with a minimum CAP of 3.2.  It precludes the Honours Thesis.</li>
-        <li>All level-4000 modules carry a general pre-requisite of having completed 80 MCs, including 28 MCs in the Major, with a minimum CAP of 3.2 OR being on the Honours Track (some level-4000 modules may have different pre-requisites).</li>
-      </ul>
-      <br>
-      <p class="lead">Single Major (B.A.)</p>
-      <p>Pass at least 60 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>JS2101</li>
-        <li>JS3101</li>
-        <li>LAJ1201</li>
-        <li>LAJ2201</li>
-        <li>LAJ2202</li>
-        <li>LAJ2203</li>
-        <li>a minimum of 20 MCs at level-3000 or higher (including JS3101)</li>
-      </ul>
-    </div>
-    <hr>
-    <div id="2010to2011">
-      <h1>Cohort 2010 to 2011</h1>
-      <p class="lead">Single Major [B.A. (Hons.)]</p>
-      <p>Pass at least 100 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>JS2101</li>
-        <li>JS3101</li>
-        <li>JS4101</li>
-        <li>LAJ1201</li>
-        <li>LAJ2201</li>
-        <li>LAJ2202</li>
-        <li>LAJ2203</li>
-        <li>LAJ3201 or LAJ3203 or both</li>
-        <li>LAJ3202 or LAJ3204 or both</li>
-        <li>a minimum of 60 MCs at level-3000 or higher, with:
-          <ul>
-            <li>a minimum of 40 MCs at level-4000 or higher (including JS4101)</li>
-            <li>a maximum of 2 level-5000 JS modules (subject to department's approval)</li>
-          </ul>
-        </li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>To declare an Honours track, students must have completed 110 MCs, including 60 MCs in the Major, with a CAP of 3.5 and above.</li>
-        <li>The Honours Thesis (15 MCs) is optional. To qualify for the Honours Thesis, students must complete 110 MCs including 60 MCs of JS major requirements with a minimum SJAP of 4.0 and CAP of 3.5. In order to obtain First Class Honours, students must achieve a CAP of 4.5 or higher AND at least an 'A-' in the Honours Thesis.</li>
-        <li>Students who do not attempt the Honours Thesis will read level-4000 modules to fulfil the Honours Requirements.</li>
-        <li>Students who may also read a level-4000 Independent Studies Module (5 MCs).  The level-4000 ISM carries a pre-requisite of 100 MCs completed, including 60 MCs in the Major, with a minimum CAP of 3.5.  It precludes the Honours Thesis.</li>
-        <li>All level-4000 modules carry a general pre-requisite of having completed 80 MCs, including 28 MCs in the Major, with a minimum CAP of 3.5 OR being on the Honours Track (some level-4000 modules may have different pre-requisites).</li>
-      </ul>
-      <p class="lead">Single Major (B.A.)</p>
-      <p>Pass at least 60 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>JS2101</li>
-        <li>JS3101</li>
-        <li>LAJ1201</li>
-        <li>LAJ2201</li>
-        <li>LAJ2202</li>
-        <li>LAJ2203</li>
-        <li>a minimum of 20 MCs at level-3000 or higher (including JS3101)</li>
-      </ul>
-    </div>
-    <hr>
-    <div id="secondmajor2016andafter">
-      <h1>Second Major (for Cohort 2016 and after)</h1>
-      <p>To major in Japanese Studies, students need to:</p>
-      <ul>
-        <li>Passed JS1101E. This will be counted towards the Faculty Core or UE requirements.</li>
-        <li>Pass at least 44 MCs of JS modules or JS-recognised mdoules or LAJ modules which include the following:
-          <ul>
-            <li>JS2101</li>
-            <li>JS3101</li>
-            <li>no more than 16 MCs of the following LAJ modules:
-              <ul>
-                <li>LAJ1201</li>
-                <li>LAJ2201</li>
-                <li>LAJ2202</li>
-                <li>LAJ2203</li>
-              </ul>
-            </li>
-            <li>a minimum of 20 MCs at level-3000 or higher(including JS3101)</li>
-          </ul>
-        </li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>LAJ1201, LAJ2201, LAJ2202, LAJ2203, LAJ3201, LAJ3202, LAJ3203, LAJ3204, LAJ3205, LAJ4203 and LAJ4205 offered by the Centre for Language Studies count towards Japanese Studies graduation requirements.</li>
-        <li>Students who were waived from LAJ module(s) should read higher level LAJ or JS or JS-recognised module(s) to make up for the minimum LAJ module(s) required.</li>
-      </ul>
-    </div>
-    <hr>
-    <div id="secondmajor2010to2015">
-      <h1>Second Major (for Cohort 2010 to 2015) </h1>
-      <p>Pass at least 48 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>JS2101</li>
-        <li>JS3101</li>
-        <li>LAJ1201</li>
-        <li>LAJ2201</li>
-        <li>LAJ2202</li>
-        <li>a minimum of 16 MCs at level-3000 or higher (including JS3101)</li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>LAJ1201, LAJ2201, LAJ2202, LAJ2203, LAJ3201, LAJ3202, LAJ3203, LAJ3204, LAJ3205, LAJ4203 and LAJ4205 offered by the Centre for Language Studies count towards Japanese Studies graduation requirements.</li>
-        <li>Students who were waived from LAJ module(s) should read higher level LAJ or JS or JS-recognised module(s) to make up for the minimum LAJ module(s) required.</li>
-      </ul>
-    </div>
-    <hr>
-    <div id="minor2006andafter">
-      <h1>Minor (for Cohort 2006 and after) </h1>
-      <p>Pass at least 24 MCs of JS* or JS-recognised (for minor) or LAJ modules, which include the following:</p>
-      <ul>
-        <li>JS1101E</li>
-        <li>a minimum of 4 MCs of Japanese language modules (LAJ), subjected to a maximum of 12 MCs</li>
-        <li>a minimum of 4 MCs of JS modules at level-3000</li>
-      </ul>
-      <p>Notes:</p>
-      <ul>
-        <li>LAJ1201, LAJ2201, LAJ2202, LAJ2203, LAJ3201, LAJ3202, LAJ3203, LAJ3204, LAJ3205, LAJ4203 and LAJ4205 offered by the Centre for Language Studies count towards Japanese Studies graduation requirements.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<hr>
-<div class="nus-breadcrumbs">
-  <div class="container">
-    <ul>
-      <li><span class="icon faicon fa-location"></span><a href="../index.html">Home</a></li>
-      <li>Undergraduate</li>
-      <li>Graduation Requirements</li>
-    </ul>
-  </div>
-</div>
-      <!-- InstanceEndEditable -->
+      <!-- TemplateBeginEditable name="Content Region" -->
+        <div class="container nus-components item-page2">
+          <p>Insert your content here.</p>
+        </div>
+      <!-- TemplateEndEditable -->
 
         <!-- FOOTER - START -->
         <footer class="nus-footer">
@@ -558,13 +308,13 @@
                     <h3 class="title "><span>Undergraduate</span></h3>
                     <div class="module-ct">
                       <ul style="font-size:12px">
-                        <li><a href="admission.html">Admission</a></li>
-                        <li><a href="graduate_requirements.html">Graduate Requirements</a></li>
-                        <li><a href="module_information.html">Module Information</a></li>
-                        <li><a href="mentorship_scheme.html">Mentorship Scheme</a></li>
-                        <li><a href="scholarship_and_awards.html">Scholarship and Awards</a></li>
-                        <li><a href="student_activites.html">Student Activities</a></li>
-                        <li><a href="career_opportunities.html">Career Opportunities</a></li>
+                        <li><a href="../undergraduate/admission.html">Admission</a></li>
+                        <li><a href="../undergraduate/graduate_requirements.html">Graduate Requirements</a></li>
+                        <li><a href="../undergraduate/module_information.html">Module Information</a></li>
+                        <li><a href="../undergraduate/mentorship_scheme.html">Mentorship Scheme</a></li>
+                        <li><a href="../undergraduate/scholarship_and_awards.html">Scholarship and Awards</a></li>
+                        <li><a href="../undergraduate/student_activites.html">Student Activities</a></li>
+                        <li><a href="../undergraduate/career_opportunities.html">Career Opportunities</a></li>
                       </ul>
                     </div>
                   </div>
@@ -690,4 +440,4 @@
 
 
   </body>
-<!-- InstanceEnd --></html>
+</html>
