@@ -557,3 +557,11 @@ table img {
 .people-list img {
 	width: 100%;
 }
+
+.btn.btn-link:focus {
+	outline: none;
+}
+
+.accordion  h3:focus {
+	outline: none;
+}
