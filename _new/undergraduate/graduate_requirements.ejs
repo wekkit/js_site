@@ -9,18 +9,18 @@
     <p>Check the graduation requirements for your cohort:</p>
     <div class="well">
       <ul>
-        <li><a href="#2016andafter">Cohort 2016 and after</a></li>
-        <li><a href="#2012to2015">Cohort 2012 to 2015</a></li>
-        <li><a href="#2010to2011">Cohort 2010 to 2011</a></li>
+        <li class="gradreq-select" id="show-2016andafter"><a>Cohort 2016 and after</a></li>
+        <li class="gradreq-select" id="show-2012to2015"><a>Cohort 2012 to 2015</a></li>
+        <li class="gradreq-select" id="show-2010to2011"><a>Cohort 2010 to 2011</a></li>
         <br>
-        <li><a href="#secondmajor2016andafter">Second Major (for Cohort 2016 and after)</a></li>
-        <li><a href="#secondmajor2010to2015">Second Major (for Cohort 2010 to 2015)</a></li>
+        <li class="gradreq-select" id="show-secondmajor2016andafter"><a>Second Major (for Cohort 2016 and after)</a></li>
+        <li class="gradreq-select" id="show-secondmajor2010to2015"><a>Second Major (for Cohort 2010 to 2015)</a></li>
         <br>
-        <li><a href="#minor2006andafter">Minor (for Cohort 2006 and after)</a></li>
+        <li class="gradreq-select" id="show-minor2006andafter"><a>Minor (for Cohort 2006 and after)</a></li>
       </ul>
     </div>
-    <hr>
-    <div id="2016andafter">
+
+    <div id="2016andafter" class="gradreq">
       <h1>Cohort 2016 and after</h1>
       <p class="lead">Single Major [B.A. (Hons.)]</p>
       <p>To major in Japanese Studies, students need to:</p>
@@ -80,8 +80,8 @@
         </li>
       </ul>
     </div>
-    <hr>
-    <div id="2012to2015">
+
+    <div id="2012to2015" class="gradreq">
       <h1>Cohort 2012 to 2015</h1>
       <p class="lead">Single Major [B.A. (Hons.)]</p>
       <p>Pass at least 100 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
@@ -125,8 +125,8 @@
         <li>a minimum of 20 MCs at level-3000 or higher (including JS3101)</li>
       </ul>
     </div>
-    <hr>
-    <div id="2010to2011">
+
+    <div id="2010to2011" class="gradreq">
       <h1>Cohort 2010 to 2011</h1>
       <p class="lead">Single Major [B.A. (Hons.)]</p>
       <p>Pass at least 100 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
@@ -169,8 +169,8 @@
         <li>a minimum of 20 MCs at level-3000 or higher (including JS3101)</li>
       </ul>
     </div>
-    <hr>
-    <div id="secondmajor2016andafter">
+
+    <div id="secondmajor2016andafter" class="gradreq">
       <h1>Second Major (for Cohort 2016 and after)</h1>
       <p>To major in Japanese Studies, students need to:</p>
       <ul>
@@ -197,8 +197,8 @@
         <li>Students who were waived from LAJ module(s) should read higher level LAJ or JS or JS-recognised module(s) to make up for the minimum LAJ module(s) required.</li>
       </ul>
     </div>
-    <hr>
-    <div id="secondmajor2010to2015">
+
+    <div id="secondmajor2010to2015" class="gradreq">
       <h1>Second Major (for Cohort 2010 to 2015) </h1>
       <p>Pass at least 48 MCs of JS or JS-recognised or LAJ modules, which include the following:</p>
       <ul>
@@ -216,8 +216,8 @@
         <li>Students who were waived from LAJ module(s) should read higher level LAJ or JS or JS-recognised module(s) to make up for the minimum LAJ module(s) required.</li>
       </ul>
     </div>
-    <hr>
-    <div id="minor2006andafter">
+
+    <div id="minor2006andafter" class="gradreq">
       <h1>Minor (for Cohort 2006 and after) </h1>
       <p>Pass at least 24 MCs of JS* or JS-recognised (for minor) or LAJ modules, which include the following:</p>
       <ul>
@@ -243,3 +243,14 @@
     </ul>
   </div>
 </div>
+
+<script>
+  $('.gradreq').hide()  
+  $('.gradreq-select').each((i, elem) => {
+    elem.addEventListener('click', () => {
+      $('.gradreq').hide()
+      let toShow = `#${elem.id.split('').slice(5, elem.id.length).join('')}`
+      $(toShow).fadeIn(200)
+    })
+  })
+</script>

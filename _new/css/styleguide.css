@@ -565,3 +565,7 @@ table img {
 .accordion  h3:focus {
 	outline: none;
 }
+
+a {
+	cursor: pointer;
+}
