@@ -569,3 +569,9 @@ table img {
 a {
 	cursor: pointer;
 }
+
+.module-nav a {
+	color: #337ab7;
+	cursor: pointer;
+	text-align: center;
+}
